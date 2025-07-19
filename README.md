@@ -1,8 +1,79 @@
-# React + Vite
+# 📝 iTodo - Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**iTodo** is a minimal, elegant, and fast To-Do list application built using **Vite + React**. Organize your daily tasks with ease—add, complete, or delete tasks effortlessly, with a clean and responsive UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- ✏️ Add new tasks quickly
+- ✅ Mark tasks as completed
+- ❌ Delete tasks individually
+- 🎨 Clean and modern UI with gradient styling
+- ⚡ Blazing fast performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: CSS Modules / Tailwind / Plain CSS (customize based on your setup)
+- **Icons**: Font Awesome / React Icons
+- **Tooling**: Vite for lightning-fast dev environment
+
+---
+
+## 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/iTodo.git
+cd iTodo
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the app locally
+
+```bash
+npm run dev
+```
+
+### 4. Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+iTodo/
+├── public/
+│   └── favicon.svg
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── screenshots/
+│   └── todo-ui.png
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by [Nishant Rathore](https://github.com/NISHANT-RATHORE)
+
+---
